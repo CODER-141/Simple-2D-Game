@@ -1,0 +1,64 @@
+.b{
+    background-image: url("background.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+}
+.body{
+    margin: 0px;
+}
+.f{
+    position: absolute;
+    height: 180px;
+    margin-top: 480px;
+}
+
+.boy{
+    position: absolute;
+    height: 250px;
+    margin-top: 390px;
+}
+
+.score{
+    position:absolute;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Arial";
+    margin-top: 8px;
+    margin-left: 100px;
+    
+    
+}
+
+.end{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    font-family: "Arial";
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.btn{
+    height: 60px;
+    width: 500px;
+    background-color: green;
+    color: white;
+    font-family: "Arial";
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
